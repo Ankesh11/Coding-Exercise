@@ -22,4 +22,4 @@ int main(){
         cin>>pre[i];
     cout<<is_preorder_bst(pre, n)<<endl;
 }
-//Time Complexity: O(n)..
+//Time Complexity: O(n)
