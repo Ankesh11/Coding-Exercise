@@ -31,7 +31,8 @@ bool is_safe(int grid[N][N], int x, int y, int v){
 void print_sol(int grid[N][N]){
     for(int i=0;i<N;i++){
         for(int j=0;j<N;j++)
-            cout<<grid[i][j]<<"|";
+            cout<<"|"<<grid[i][j];
+        cout<<"|";
         cout<<endl;
     }
 }
